@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <div>
+    <fieldset>
+    <legend>personal details</legend>
+    <div><label for="name">name:</label>
+    <br><input type = "text" placeholder="enter name"></div>
+    <div><br> <label for="email">email:</label><br>
+    <input type = "text" placeholder="enter email"></div>
+   <div> <label for="age">age:</label><br>
+    <input type = "text" placeholder="age"></div><br>
+    <div> 
+        <label for="gender">gender</label><br>
+        <select name="gender">
+            ,<option value="male">male</option>
+            <option value="female">female</option>
+        </select></div><br>
+        <div>
+            <label for="role">role:</label>
+            which option best describe you?<br>
+
+            <select name ="role">
+            <option value="student"> student</option>x
+            <option value="intern"> intern</option>
+            <option value="professional"> profesional</option>
+            </select></div><br>
+            <div>
+                <label for="language">language known:</label>
+                how many languages you known?<br>
+                <input type="checkbox" name="language"value="c">c<br>
+
+                <input type="checkbox" name="language"value="c++">c++<br>
+                <input type="checkbox" name="language"value="java">java<br>
+                <input type="checkbox" name="language"value="phython">python<br>
+            </div><br><br>
+        <div>
+            <label for="suggestion"> do you have any suggestion</label><br>
+            <input type ="text"placeholder="type your suggestion">
+        </div><br>
+        <button>submit</button>
+    </div>
+    
+
+    
+
+</fieldset>
+    </div>
+</body>
+</html>
