@@ -6,7 +6,7 @@ const quizQuestions = [
     {
         question: "Qns5:What is the full form of PROM ?",
         options: ["Program read-only memory ", "Primary Read only memory", "Programmable read-only memory ", "Program read-output memory "],
-        correctAnswer: "Programmable read-only memor"
+        correctAnswer: "Programmable read-only memory"
     },
     {
         question: "Qns6:Which of the following is an input device used to enter motion data in computers or other electronic devices ?",
